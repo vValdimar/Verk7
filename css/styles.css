@@ -1,4 +1,4 @@
-:root{--white:rgb(255, 255, 255);--cyan:rgb(52, 96, 99);--cyandark:rgb(47, 84, 87);--gray:rgb(230, 240, 240);--footerbg:linear-gradient(rgb(52, 96, 99), rgb(47, 84, 87))}
+:root{--white:rgb(255, 255, 255);--main:rgb(52, 96, 99);--maindark:rgb(47, 84, 87);--gray:rgb(230, 240, 240);--footerbg:linear-gradient(rgb(52, 96, 99), rgb(47, 84, 87))}
 html{scroll-behavior:smooth}
 body{margin:0;font-size:1em;line-height:1.6;font-weight:400;font-family:'Roboto Slab',serif;color:#222}
 h1,h2,h3{font-weight:300;margin:.5em 0}
@@ -88,10 +88,10 @@ h3{font-size:1.6em;line-height:1.6}
 .icon-twitter:before{content:"\ea96"}
 .icon-youtube:before{content:"\ea9d"}
 .icon-twitch:before{content:"\ea9f"}
-.topmenu{background-color:var(--cyan);box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);position:fixed;width:100%;z-index:3}
-.topmenu ul{margin:0;padding:0;list-style:none;overflow:hidden;background-color:var(--cyan)}
-.topmenu li a{color:var(--white);display:block;padding:20px 20px;border-right:1px solid var(--cyandark);text-decoration:none}
-.topmenu .menu-btn:hover,.topmenu li a:hover{background-color:var(--cyandark)}
+.topmenu{background-color:var(--main);box-shadow:1px 1px 4px 0 rgba(0,0,0,.1);position:fixed;width:100%;z-index:3}
+.topmenu ul{margin:0;padding:0;list-style:none;overflow:hidden;background-color:var(--main)}
+.topmenu li a{color:var(--white);display:block;padding:20px 20px;border-right:1px solid var(--maindark);text-decoration:none}
+.topmenu .menu-btn:hover,.topmenu li a:hover{background-color:var(--maindark)}
 .topmenu .logo{color:var(--white);display:block;float:left;font-size:2em;padding:10px 20px;text-decoration:none}
 .topmenu .menu{clear:both;max-height:0;transition:max-height .2s ease-out}
 .topmenu .menu-icon{cursor:pointer;display:inline;float:right;padding:28px 20px;position:relative;user-select:none}
