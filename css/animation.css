@@ -1,0 +1,32 @@
+.bsbg {
+    background-blend-mode: darken;
+    animation: bsbg 2s ease-out both;
+}
+.gamelogo {
+    animation: gamelogo 1.5s ease-out both;
+}
+
+@keyframes bsbg {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+    50% {
+        opacity: 1;
+        height: 48em;
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.753);
+    }
+}
+
+@keyframes gamelogo {
+    50% {
+        top: -12em;
+        filter: blur(20px);
+    }
+    100% {
+        filter: blur(0);
+        top: 12em;
+    }
+}

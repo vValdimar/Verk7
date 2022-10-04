@@ -9,3 +9,9 @@
   position: relative;
   height: 48em;
 }
+.gamelogo {
+  display: block;
+  margin: auto;
+  top: -12em;
+  position: relative;
+}
