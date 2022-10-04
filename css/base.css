@@ -15,6 +15,7 @@
   - Media Queries
 */
 :root {
+  --black: rgb(0, 0, 0);
   --white: rgb(255, 255, 255);
   --cyan: rgb(52, 96, 99);
   --cyandark: rgb(47, 84, 87);

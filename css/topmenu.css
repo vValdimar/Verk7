@@ -1,5 +1,5 @@
 .topmenu {
-    background-color: var(--cyan);
+    background-color: var(--black);
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -8,10 +8,11 @@
   
   .topmenu ul {
     margin: 0;
+    margin-top: 1em;
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: var(--cyan);
+    background-color: var(--black);
   }
   
   .topmenu li a {
@@ -43,6 +44,7 @@
   }
   
   .topmenu .menu-icon {
+    margin: 1em;
     cursor: pointer;
     display: inline;
     float: right;
@@ -104,7 +106,7 @@
     top: 0;
   }
   
-  @media (min-width: 60em) {
+  @media (min-width: 48em) {
     .topmenu li {
       float: left;
     }
