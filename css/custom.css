@@ -3,15 +3,26 @@
   margin-left: 1em;
   transform: rotate(90deg);
 }
-.bsbg {
+.bgimage {
   background: url(/images/brawlstars_bg.jpg) 50% 50%;
   width: 100%;
-  position: relative;
-  height: 48em;
+  height: 32em;
+}
+.darken {
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.753);
 }
 .gamelogo {
   display: block;
   margin: auto;
   top: -12em;
+  position: relative;
+}
+.gameicon {
+  display: block;
+  margin: auto;
+  z-index: 2;
+  top: 12em;
+  right: 0;
   position: relative;
 }
