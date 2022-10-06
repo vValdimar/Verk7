@@ -1,3 +1,6 @@
+h1 {
+  font-weight: 600;
+}
 .vmk {
   height: 2em;
   margin-left: 1em;
@@ -25,4 +28,9 @@
   top: 12em;
   right: 0;
   position: relative;
+}
+.arena {
+  max-width: 32em;
+  display: block;
+  margin: auto;
 }
