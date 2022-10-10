@@ -18,8 +18,8 @@
   --black: rgb(0, 0, 0);
   --blackalpha: rgba(0, 0, 0, 100);
   --white: rgb(255, 255, 255);
-  --cyan: rgb(52, 96, 99);
-  --cyandark: rgb(47, 84, 87);
+  --cyan: rgb(37, 182, 192);
+  --cyandark: rgb(44, 143, 152);
   --gold: rgb(228, 191, 112);
   --gray: rgb(132, 141, 148);
   --footerbg: linear-gradient(rgb(52, 96, 99), rgb(47, 84, 87));

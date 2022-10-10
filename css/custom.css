@@ -25,12 +25,22 @@ h1 {
   display: block;
   margin: auto;
   z-index: 2;
-  top: 12em;
+  top: 192px;
   right: 0;
   position: relative;
 }
-.arena {
-  max-width: 32em;
+.img {
+  max-width: 80%;
   display: block;
   margin: auto;
+}
+.line {
+  margin: 2em;
+  border-bottom: 2px solid var(--gray);
+}
+.footer {
+  margin-top: 5em;
+  height: 12em;
+  background-color: var(--black);
+  border-top: 5px solid var(--cyan);
 }
