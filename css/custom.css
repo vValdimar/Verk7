@@ -35,8 +35,12 @@ h1 {
   margin: auto;
 }
 .line {
-  margin: 2em;
+  margin: 2em auto;
   border-bottom: 2px solid var(--gray);
+}
+iframe {
+  width: 50%;
+  border: 5px solid var(--cyandark);
 }
 .footer {
   color: var(--gray);
