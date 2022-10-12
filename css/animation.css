@@ -1,7 +1,7 @@
 .temphide {
     opacity: 0%;
     top: 40em;
-    animation: temphide 2s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+    animation: temphide 1s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
 }
 .bsbg {
     position: relative;
@@ -98,7 +98,7 @@
 }
 
 @keyframes temphide {
-    80% {
+    50% {
         opacity: 0;
     }
     100% {

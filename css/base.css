@@ -19,9 +19,10 @@
   --blackalpha: rgba(0, 0, 0, 100);
   --white: rgb(255, 255, 255);
   --cyan: rgb(37, 182, 192);
-  --cyandark: rgb(44, 143, 152);
+  --cyandark: rgb(44, 52, 53);
   --gold: rgb(228, 191, 112);
   --gray: rgb(132, 141, 148);
+  --lightgray: rgb(214, 227, 236);
   --footerbg: linear-gradient(rgb(52, 96, 99), rgb(47, 84, 87));
 }
 
