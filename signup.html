@@ -8,7 +8,7 @@
     <meta name="author" content="GJG">
     <title>CSS grind</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/grid.css">
     <!--stílsíður sem við eigum eftir að bæta við-->
@@ -24,13 +24,13 @@
 <body id="top">
   <nav class="topnav">
     <section class="topmenu">
-      <a href="" class="logo"><img class="vmk" src="/images/vmk-logo.svg"></a>
+      <a href="/index.html" class="logo"><img class="vmk" src="/images/vmk-logo.svg"></a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
         <li><a href="/index.html"><span data-icon="&#xe900;"></span> HEIM</a></li>
         <li><a href="#"><span data-icon="&#xea0c;"></span> SKRÁNING</a></li>
-      <li><a href="https://supercell.com/en/games/brawlstars/"><span data-icon="&#xe9d9;"></span> UM BRAWL STARS</a></li>
+      <li><a href="#schedule"><span data-icon="&#xe9d9;"></span> DAGSKRÁ</a></li>
       </ul>  
     </section>
   </nav>
@@ -40,17 +40,10 @@
   </header>
   <section class="container col-2 temphide">
     <div>
-      <a class="anchor" id="contact"></a>
-      <h1>Þarft hjálp?</h1>
-      <figure>
-        <img src="images/help.png">
-      </figure>
-    </div>
-    <div>
       <h1>Skráið ykkur</h1>
       <form>
-        <label>Nafn</label>
-        <input type="text" name="name" required placeholder="Name (required)"><br>
+        <label>Nafn / Liðarheiti</label>
+        <input type="text" name="name" required placeholder="Name / Team name (required)"><br>
         <br>
         <label>Netfang</label>
         <input type="email" name="email" required placeholder="Email address (required)"><br>
@@ -63,8 +56,15 @@
         <input type="submit" value="Halda áfram">
       </form>
     </div>
+    <div>
+      <a class="anchor" id="contact"></a>
+      <h1>Þarft hjálp?</h1>
+      <figure>
+        <img src="images/help.png">
+      </figure>
+    </div>
   </section>
-    <table class="table temphide">
+    <table class="table temphide" id="schedule">
       <caption class="caption"><h1>Dagskrá</h1></caption>
       <thead>
           <tr> 
@@ -75,7 +75,7 @@
       </thead>
       <tbody>
           <tr>
-              <td data-label="SÆTI" scope="row">&nbsp #4 - #8 &nbsp</td>
+              <td data-label="SÆTI" scope="row">&nbsp #5 - #8 &nbsp</td>
               <td data-label="HVAÐ" >Fjórðungsúrslit &nbsp</td>
               <td data-label="HVENÆR" >13:30 - 15:00 &nbsp</td>
           </tr>
@@ -85,7 +85,7 @@
               <td data-label="HVENÆR" >15:00 - 16:00 &nbsp</td>
           </tr>
           <tr>
-              <td data-label="SÆTI" scope="row">&nbsp #1 & #2</td>
+              <td data-label="SÆTI" scope="row">&nbsp #1 / #2</td>
               <td data-label="HVAÐ" >Úrslitaleikur</td>
               <td data-label="HVENÆR" >16:00 - 16:30 &nbsp</td>
           </tr>
@@ -111,7 +111,7 @@
         <a href="https://www.twitch.tv/brawlstars"><span data-icon="&#xea9f">    </span></a>
         <a href="https://www.facebook.com/brawlstars/"><span data-icon="&#xea91"></span></a>
       </ul>
-      <a href="" class="logof"><img class="vmk" src="/images/vmk-logo.svg"></a>
+      <a href="/index.html" class="logof"><img class="vmk" src="/images/vmk-logo.svg"></a>
     </section>
     <div class="copyright container">
       <p>© Valdimar</p>
