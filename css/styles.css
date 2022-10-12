@@ -145,3 +145,41 @@ tbody button{background-color:var(--white)}
 @media screen and (min-width:100em){
 .icons,.logof{right:15%}
 }
+.temphide{opacity:0;top:40em;animation:temphide 1s cubic-bezier(.645,.045,.355,1) both}
+.bsbg{position:relative;height:48em;background-blend-mode:darken;animation:bsbg 4s cubic-bezier(.645,.045,.355,1) both}
+.gamelogo{animation:gamelogo 2s cubic-bezier(.645,.045,.355,1) both}
+.gameicon{animation:gameicon 1s cubic-bezier(.645,.045,.355,1) both}
+.signup{color:var(--white);font-size:4em;font-weight:800;position:relative;animation:signup 1s cubic-bezier(.645,.045,.355,1) both}
+@keyframes bsbg{
+0%{opacity:0;height:0}
+50%{opacity:1;height:40em}
+100%{height:40em;background-color:rgba(0,0,0,.753)}
+}
+@keyframes gamelogo{
+50%{top:-12em;filter:blur(20px)}
+100%{filter:blur(0);top:12em}
+}
+@media screen and (max-width:37.5em){
+@keyframes gameicon{
+100%{top:8em}
+}
+@keyframes signup{
+0%{text-align:center;top:0;letter-spacing:-.5em;opacity:0}
+40%{opacity:.6}
+100%{text-align:center;top:1.5em;opacity:1}
+}
+}
+@media screen and (min-width:37.5em){
+@keyframes gameicon{
+100%{right:10em}
+}
+@keyframes signup{
+0%{left:45%;letter-spacing:-.5em;opacity:0}
+40%{opacity:.6}
+100%{left:50%;opacity:1}
+}
+}
+@keyframes temphide{
+50%{opacity:0}
+100%{opacity:1}
+}
